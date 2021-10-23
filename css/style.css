@@ -1,0 +1,490 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~COMMON COMPONENTS CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
+/* body */
+body {
+    background-color: rgb(15, 41, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0; 
+    min-width: 320px;
+    text-align: justify;
+}
+
+/* header */
+header {
+    margin: 0;
+    padding-top: 5%;
+}
+
+#logo {
+    width: 75px;
+    height: 75px;
+    margin-left: 40%;
+}
+
+/* navbar */
+
+nav ul {  
+    margin-left: 7%;
+    padding: 0;
+    list-style: none;
+  }
+  
+nav ul li {
+    display: inline;
+    margin-right: 5%;
+    font-size: 14px;
+}
+  
+nav a {
+    text-decoration: none;
+    outline: none;
+    color: rgb(204, 204, 204);
+}
+
+nav a:active, a:hover {
+    color: rgb(203, 45, 111);
+}
+
+/* main */
+main {
+    padding: 10px 12px;
+    border-top: 3px solid grey;
+}
+
+h2 {
+    color: rgb(203, 45, 111);
+    margin-left: 5%;
+    display: block;
+    text-align: center;
+}
+
+p {
+    color: rgb(204, 204, 204);
+}
+
+/* footer */
+footer {
+    border-top: 3px solid grey;
+    background-color: rgb(80, 31, 58);
+    padding: 3px 5%;
+    clear: both;
+    font-size: 1em;
+}  
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~HOME PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.home {
+    height: 150px;
+    width: 300px;
+}
+
+#first a:hover {
+    color: rgb(203, 45, 111);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CONTACT PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+form p  {
+    color: rgb(203, 45, 111);
+    text-align: left;
+}
+
+#suggestions {
+    color: rgb(203, 45, 111);
+    font-size: 20px; 
+}
+
+#submit, #submitq {
+    color: rgb(203, 45, 111);
+    font-size: 12px;
+    background-color: rgb(20, 160, 152);
+    font-weight: bold;
+    padding: 10px;
+}
+
+input, textarea {
+    margin: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODULES PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#degree {
+    color: rgb(203, 45, 111);
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3 {
+    color: rgb(203, 45, 111);  
+}
+
+.module img {
+    height: 150px;
+    width: 300px;
+}
+
+#module_title {
+    color: rgb(204, 204, 204);
+}
+
+#psy {
+    text-align: left;
+}
+
+button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(20, 160, 152);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a button, #degree a, #first a {
+    text-decoration: none;
+    outline: none;
+    color: rgb(203, 45, 111);
+}
+
+#degree a, #first a {
+    color: rgb(20, 160, 152);
+}
+
+a:hover button, #degree a:hover {
+    color: rgb(204, 204, 204);
+}
+
+.button {
+    color: rgb(203, 45, 111);
+    font-size: 20px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~QUIZ PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.module form {
+    margin-left: 0;
+    color: rgb(204, 204, 204);
+}
+
+.correct {
+    color: green;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DATA VISUALISATION PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#data_table {
+    color: rgb(204, 204, 204);
+    border-radius: 5px;
+}
+
+#data_table th {
+    text-align: center;
+    background-color: rgb(80, 31, 58);
+    font-size: 13px;
+    padding: 3px;
+}
+
+#data_table, #data_table th, #data_table td {
+    border: 2px solid rgb(20, 160, 152);
+}
+
+#data_table td {
+    background-color: rgb(203, 45, 111);
+    font-size: 14px;
+}
+
+#data_table .day {
+    background-color: rgb(15, 41, 47);
+    text-align: left;
+}
+
+canvas {
+    margin-top: 20px;
+}
+
+#names {
+   font-size:9px;
+   color: rgb(204, 204, 204);
+   display: block;
+}
+
+#names td  {
+    width: 40px;
+    text-align: center;
+    padding: 0;
+}
+
+span {
+    display: inline-block;
+    width: 15px;
+    margin-top: 10px;
+}
+
+#pink {
+    background-color: rgb(203, 45, 111);
+}
+
+#green {
+    background-color: rgb(20, 160, 152);
+}
+
+#white {
+    background-color: rgb(204, 204, 204);
+}
+
+#legend {
+    color: rgb(204, 204, 204);
+    font-size: 14px;
+}
+
+#data_buttons button, #data_buttons2 button {
+    color: rgb(203, 45, 111);
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 5px;;
+    margin-top: 10px;
+} 
+
+#data_buttons,#data_buttons2  {
+    display: inline-block;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ACCESSIBILITY PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#access {
+    color:rgb(204, 204, 204);
+    font-size: 18px;
+    margin-bottom: 10%;
+}
+
+#access , #access td {
+    border: 2px solid rgb(20, 160, 152);
+}
+
+#access td {
+    padding: 5px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERIES~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media (min-width: 425px) {
+    nav {
+        margin-top: 10px;
+    }
+
+    nav ul {
+        float: right;
+        display: block;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    #logo {
+        float: left;
+        margin-top: -10px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+    }
+
+    main {
+        margin-top: 80px;   
+    }
+
+    .home, .module img {
+        height: 185px;
+        width: 370px;
+    }
+
+    #data_table th, #data_table td {
+        padding: 5px;
+    }
+
+    #data_table {
+       margin-left: 20px;
+    }
+    
+    #names, #data_canvas, #legend, #data_buttons, #data_buttons2 {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    #first img, #second img, #contact img, #data_table {
+        float: left;
+        width: 45%;
+        height: 22%;
+        box-sizing: border-box;
+        clear: left;
+        margin-bottom: 1.5em;
+    }
+
+    #contact img {
+        width: 50%;
+    }
+
+
+    #first p, #second p, #contact p, .contact form, #names, #data_canvas, #legend, #data_buttons, #data_buttons2 {
+        float: right;
+        width: 45%;
+        box-sizing: border-box;
+        clear: right;
+    }
+
+    h2 {
+        font-size: 35px;
+    } 
+
+    .module {
+        width: 45%;
+        margin-left: 15px;
+        padding: 10px;
+    }
+
+    .module img {
+        width: 100%;
+    }
+
+    #degree {
+        font-size: 20px;
+    }
+    
+    /* code inspired from: https://css-tricks.com/almanac/properties/f/flex-wrap/ */
+   .content {
+        -ms-box-orient: horizontal;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+   }
+
+   .quiz {
+    width: 27%;
+    margin-left: 15px;
+    padding: 10px;
+   }
+
+   #data_table th, #data_table td {
+       font-size: 16px;
+   }
+
+   #names, #data_canvas, #legend, #data_buttons, #data_buttons2  {
+    margin-left: 0;
+    }
+
+    #data_table {
+        margin-left: 10px;
+        margin-top: 10%;
+    }
+
+    #names td {
+        width: 55px;
+    }
+
+    #legend {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+ 
+    #first p, #second p, #contact p {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        padding: 10px;
+        font-size: 45px;
+    }
+
+    #first, #second, #contact {
+        padding-bottom: 30px;
+    }
+
+    nav ul li {
+        font-size: 1.2em;
+    }
+
+    #names td {
+        font-size: 12px;
+        width: 70px;
+    }
+    
+    #legend {
+        margin-left: 10px;
+    }
+
+    #access {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+    
+@media (min-width: 1440px) {
+    #first img, #second img {
+        width: 30%;
+        height: 15%;
+        margin-left: 5%;
+    }
+
+    #first p, #second p, #contact p, form {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+    }
+
+    .module {
+        width: 30%;
+        margin-left: 15px;
+        padding: 10px;
+    }
+
+    #data_canvas {
+        width: 450px;
+        margin-right: 12%;
+    }
+
+    #names td {
+        font-size: 12px;
+        width: 60px;
+        padding-left: 5px;
+    }
+
+    #access {
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 1520px) {
+    #data_canvas {
+        margin-right: 13em;
+    }
+    #names td {
+        text-align: left;
+    }
+}

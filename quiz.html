@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Ana Camarasan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Quiz </title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+           <a href="index.html"> <img src="./img/logo.png" id="logo" alt="logo"> </a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="modules.html"> MODULES </a></li>
+                <li id="second"><a href="contact.html"> CONTACT </a></li>
+                <li><a href="accessibility.html"> ACCESSIBILITY </a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2> QUIZ </h2>
+            <div class="wrapper">
+                <div class="content">
+                    <div class="module quiz">
+                        <img src="./img/miro.jpg" alt="MiRo">
+                        <h3> What is the name of this robot? </h3>
+                        <form name="myform" enctype="text/plain">
+                            <input type="radio" id="q1answ1" name="q1">
+                            <label for="q1answ1"> Bunny </label><br><br>
+                            <input type="radio" id="q1answ2" name="q1">
+                            <label for="q1answ2" id="firstq"> MiRo </label><br><br>
+                            <input type="radio" id="q1answ3" name="q1">
+                            <label for="q1answ3"> The Devil </label><br><br><br>
+                        </form>
+                    </div>
+                    <div class="module quiz">
+                        <img src="./img/quiz_tennis.jpg" alt="a doll playing tennis">
+                        <h3> At what age have I started playing tennis? </h3>
+                        <form name="myform" enctype="text/plain">
+                            <input type="radio" id="q2answ1" name="q2">
+                            <label for="q2answ1"> 10 </label><br><br>
+                            <input type="radio" id="q2answ2" name="q2">
+                            <label for="q2answ2"> 7 </label><br><br>
+                            <input type="radio" id="q2answ3" name="q2">
+                            <label for="q2answ3" id="secondq"> 5 </label><br><br><br>
+                        </form>
+                    </div>
+                    <div class="module quiz">
+                        <img src="./img/optional.jpg" alt="confused woman holding 2 question marks">
+                        <h3> Which of the following modules is the optional one? </h3>
+                        <form name="myform" enctype="text/plain">
+                            <input type="radio" id="q3answ1" name="q3">
+                            <label for="q3answ1" id="thirdq"> PSY1002 </label><br><br>
+                            <input type="radio" id="q3answ2" name="q3">
+                            <label for="q3answ2"> COM1008 </label><br><br>
+                            <input type="radio" id="q3answ3" name="q3">
+                            <label for="q3answ3"> COM1005 </label><br><br><br>
+                            <input type="button" name="submitq" id="submitq" value="CHECK YOUR ANSWERS"> <br><br> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p> &copy; Ana Camarasan, 2020 </p>
+        </footer>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

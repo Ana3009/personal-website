@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Ana Camarasan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Data Visualisation </title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+           <a href="index.html"> <img src="./img/logo.png" id="logo" alt="logo"> </a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="modules.html"> MODULES </a></li>
+                <li id="second"><a href="contact.html"> CONTACT </a></li>
+                <li><a href="accessibility.html"> ACCESSIBILITY </a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2> Time spent on 3 different activities during a week's time</h2>
+            <div class="wrapper">
+                <table id="data_table">
+                    <tr>
+                        <th rowspan="2"> Days of the week </th>
+                        <th colspan="3"> Activities </th>
+                    </tr>
+                    <tr>
+                        <th class="day"> Coursework </th>
+                        <th class="day"> Netflix </th>
+                        <th class="day"> Exercising </th>
+                    </tr>
+                    <tr>
+                        <th class="day"> Monday </th>
+                        <td> 4h </td>
+                        <td> 3h </td>
+                        <td> 1h </td>
+                    </tr>
+                    <tr>
+                        <th class="day"> Tuesday </th>
+                        <td> 4h </td>
+                        <td> 2h </td>
+                        <td> 2h </td>
+                    </tr>
+                    <tr>
+                        <th class="day"> Wednesday </th>
+                        <td> 6h </td>
+                        <td> 1h </td>
+                        <td> 2h </td>
+                    </tr>
+                    <tr>
+                        <th class="day"> Thursday </th>
+                        <td> 5h </td>
+                        <td> 2h </td>
+                        <td> 1h </td>
+                    </tr>
+                    <tr>
+                        <th class="day"> Friday </th>
+                        <td> 3h </td>
+                        <td> 5h </td>
+                        <td> 2h </td>
+                    </tr>
+                    <tr>
+                        <th class="day"> Saturday </th>
+                        <td> 2h </td>
+                        <td> 6h </td>
+                        <td> 2h </td>
+                    </tr>
+                    <tr>
+                        <th class="day"> Sunday </th>
+                        <td> 4h </td>
+                        <td> 4h </td>
+                        <td> 1h </td>
+                    </tr>
+                </table>
+                <canvas id="data_canvas" width="300" height="300"></canvas>
+                <table id="names">
+                    <tr>
+                        <td> Monday </td>
+                        <td> Tuesday </td>
+                        <td> Wednesday </td>
+                        <td> Thursday </td>
+                        <td> Friday </td>
+                        <td> Saturday </td>
+                        <td> Sunday </td>
+                    </tr>
+                </table>
+                <div id="data_buttons">
+                    <button id="bar"> Bar </button>
+                    <button id="pie"> Pie </button>
+                    <button id="doughnut"> Donut </button>
+                </div>
+                <div id="data_buttons2">
+                    <button id="start"> Start </button>
+                    <button id="greys"> Greys </button>
+                    <button id="rgb"> Rgb </button>
+                </div>
+                <div id="legend">
+                   <div> <span id="pink"> &nbsp;</span> Coursework 45% </div>
+                   <div> <span id="green"> &nbsp;</span> Netflix 37% </div>
+                   <div> <span id="white"> &nbsp;</span> Exercising 17% </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p> &copy; Ana Camarasan, 2020 </p>
+        </footer>
+        <script src="./js/canvas.js"></script>
+    </body>
+</html>

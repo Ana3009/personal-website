@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Ana Camarasan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Contact </title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+           <a href="index.html"> <img src="./img/logo.png" id="logo" alt="logo"> </a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="modules.html"> MODULES </a></li>
+                <li id="second"><a href="contact.html"> CONTACT </a></li>
+                <li><a href="accessibility.html"> ACCESSIBILITY </a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2> Contact </h2>
+            <div class="wrapper contact">
+                <div id="contact">
+                    <img class="home" src="./img/contact.jpg" alt="a woman with a phone and a laptop"> 
+                    <p> Ana Camarasan </p>
+                    <p> E-mail: accamarasan1@sheffield.ac.uk </p>
+                    <p id="suggestions"> Any suggestions or questions? Let me know! </p>
+                </div>
+                <form name="myform" action="mailto:accamarasan1@sheffield.ac.uk?subject=Suggestions" 
+                enctype="text/plain" method="post" onsubmit="alert('Email should open now...');" >
+                    <p>
+                        <label for="email"> Your e-mail: </label>
+                        <input type="email" name="email" id="email" placeholder="Type your email..."
+                            maxlength="40" size="30" required>
+                    </p>
+                    <p>
+                        <label for="comments"> Comments: </label>
+                        <textarea name="comments" rows="5" cols="40" placeholder="Type your comments..." required></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" name="submit" id="submit" value="SUBMIT">
+                    </p>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p> &copy; Ana Camarasan, 2020 </p>
+        </footer>
+    </body>
+</html>
